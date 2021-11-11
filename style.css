@@ -129,11 +129,17 @@ header .def-btn:hover {
   line-height: 1.5;
 }
 .read-more-btn {
-  display: none;
+  display: block;
+  color: #444;
   padding: 5px 10px;
   margin: 25px 35%;
+  text-align: center;
   border: 2px solid #5a6e39;
   background-color: #f5f6ea;
+  transition: all ease-in-out 250ms;
+}
+.read-more-btn:hover {
+  background: rgba(0, 0, 0, 0.1);
 }
 
 /*
@@ -252,4 +258,28 @@ footer a {
 
 footer a:hover {
   color: rgba(0, 0, 0, 0.3);
+}
+
+/*
+=============================
+abt
+=============================
+*/
+.second-header {
+  height: 125vh;
+}
+.abt-text-space {
+  margin: 2% 15%;
+  font: 400 16px "Nunito", sans-serif;
+}
+.abt-text-space p {
+  margin: 10px 0px;
+}
+.abt-text {
+  line-height: 1.6;
+  font-size: 1.5em;
+}
+
+.abt-text-space li {
+  margin-left: 50px;
 }
